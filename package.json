@@ -1,14 +1,16 @@
 {
-  "name": "netlify",
+  "name": "personal-web-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Personal Web Site",
   "main": "index.js",
   "scripts": {
     "dev": "netlify dev",
-    "build": "webpack -w"
+    "deploy": "netlify deploy",
+    "build": "webpack -build",
+    "build:w": "webpack -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "<derickkichize.io@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
