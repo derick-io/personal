@@ -1,0 +1,39 @@
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 100;
+    background: #fff;
+    .nav-logo {
+        line-height: 40px;
+        font-weight: 600;
+    }
+
+    .nav-links {
+        display: inherit;
+        flex-direction: inherit;
+        .nav-link {
+            padding: 6px;
+            cursor: pointer;
+            transition: all ease-in-out 500ms;
+            border-bottom: 2px solid transparent;
+            &:hover {
+                color: #5ebec4 !important;
+                border-color: #5ebec4;
+            }
+        }
+        .nav-label {
+            line-height: inherit;
+            font-weight: 500;
+            color: inherit;
+        }
+        .nav-icon {
+            vertical-align: text-bottom;
+            color: inherit;
+        }
+    }
+}

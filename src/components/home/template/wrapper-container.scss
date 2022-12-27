@@ -1,0 +1,27 @@
+.wrapper-container {
+    height: 100vh;
+
+    /* grid container settings */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'nav'
+    'main'
+    'footer';
+     
+    & > nav {
+        grid-area: nav;
+        min-height: 50px;
+    }
+     
+    & > main {
+        grid-area: main;
+        min-height: calc( 100vh - 100px);
+    }
+     
+    & > footer {
+        grid-area: nav;
+        min-height: 50px;
+    }
+}

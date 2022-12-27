@@ -1,0 +1,41 @@
+
+footer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    background: #fff;
+    .footer-logo {
+        line-height: 40px;
+        font-weight: 600;
+    }
+
+    .footer-links {
+        display: inherit;
+        flex-direction: inherit;
+        .footer-link {
+            padding: 6px;
+            cursor: pointer;
+            transition: all ease-in-out 500ms;
+            border-bottom: 2px solid transparent;
+            color: inherit;
+            &:hover {
+                color: #5ebec4 !important;
+                border-color: #5ebec4;
+            }
+            .footer-label {
+                line-height: inherit;
+                font-weight: 500;
+                color: inherit;
+            }
+            .footer-icon {
+                vertical-align: text-bottom;
+                color: inherit;
+            }
+        }
+    }
+}
