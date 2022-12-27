@@ -3,11 +3,11 @@ class Model {
     this.logoPath = '<span class="text-danger">D</span>&nbsp|&nbsp<span>K</span>'
     this.links = [
       { 
-        path: "#git",
+        path: "https://github.com/derick-io",
         icon: "fa-brands fa-github-alt"
       },
       { 
-        path: "#linkedin",
+        path: "https://www.linkedin.com/in/derick-lucas-b9886b16b/",
         icon: "fa-brands fa-linkedin-in"
       },
     ]

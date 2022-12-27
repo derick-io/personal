@@ -17,7 +17,7 @@ class Model {
             <strong>Kichize Tenchnology.</strong><br>
             Saldanha Marinho, 600 <br>
             Campinas, SP - 13013-080<br>
-            <a href=" https://wa.me/+5519991702683?text=I'm%20interested%20in%20your%20car%20for%20sale" target="_blank">
+            <a href=" https://wa.me/+5519991702683?text=Good%20morning%20how%20are%20you?" target="_blank">
               <abbr title="Phone">
                 <i class="text-success fa-brands fa-whatsapp"></i>
               </abbr> 
