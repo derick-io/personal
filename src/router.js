@@ -11,7 +11,7 @@ class Router extends _Document {
 
   run(route) {
     if ( route.path == location.hash || location.pathname == "/") {
-      this.setDocumentTitle(this.title, route.path)
+      this.setDocumentTitle(this.title)
       return new route.component()
     }
     return console.warn("something went wrong");
