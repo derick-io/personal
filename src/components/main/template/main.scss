@@ -74,6 +74,7 @@ main {
     .header {
         width: 100%;
         height: calc(100vh - 100px);
+        margin-top: 5rem;
         margin-bottom: 1rem;
 
     }
@@ -89,7 +90,7 @@ main {
     }
 
     .header .avatar {
-        margin-top: 6rem !important;
+        margin-top: 2rem !important;
         width: 100px;
         height: 100px;
     }

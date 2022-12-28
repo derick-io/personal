@@ -2,6 +2,9 @@ import './footer.scss';
 
 function template(controller) {
   return `
+    <a href="#home" class="btn btn-primary" style="line-height: 50px;">
+    <span class="material-icons">arrow_upward</span>
+    </a>
     <div class="footer-links">
       ${controller.links.map( link => `
         <div class="footer-item">
