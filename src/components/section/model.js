@@ -4,10 +4,13 @@ class Model {
       {
         title: "About Me",
         id: "about",
-        content: `Consectetur autem sapiente reiciendis omnis earum,
-        ea. Quae corrupti non repellendus aperiam vitae Soluta 
-        hic recusandae quam atque corrupti Cumque at ullam doloribus 
-        nemo eveniet amet, vero. Dicta facilis eligendi?`
+        content: `
+        In 2017, I began working in as a front end web developer at a digital marketing agency named Virtude. <br>
+        This experience led to a valuable insight: My interest in information technology. <br>
+        And so I started honing my skills in SEO, online marketing and UI/UX. <br>
+        2019 was the year I first worked with a 100% server-based ERP system at Infodesk. <br>  
+        In spite of the 2020 pandemic, I continue to study and learn as much as I can about the IT market. <br>
+        `
       },
       {
         title: "Contact Me",
