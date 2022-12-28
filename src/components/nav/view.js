@@ -6,7 +6,6 @@ class View {
     this.nav = document.querySelector("nav");
     this.nav.id = "nav";
     this.nav.innerHTML = template(this.controller);
-    this.nav.addEventListener("click",controller);
   }
 }
 

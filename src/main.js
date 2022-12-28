@@ -4,11 +4,13 @@ import { Home } from "./components/home/home.js";
 
 class App extends Router {
   constructor() {
-    super("D|K");
+    super(" D | K ");
+    super.loader();
     return super.router([
       { path: "#home", component: Home }
     ]);
   }
+
 }
 
 window.onload = function() {

@@ -2,9 +2,9 @@ import './nav.scss';
 
 function template(controller) {
   return `
-    <div class="nav-logo">
+    <a class="nav-logo" href="#home">
       ${controller.logoPath}
-    </div>
+    </a>
     <div class="nav-links">
       ${controller.links.map( link => `
         <div class="nav-item">

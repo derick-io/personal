@@ -5,7 +5,7 @@ class Model {
         title: "About Me",
         id: "about",
         content: `
-        In 2017, I began working in as a front end web developer at a digital marketing agency named Virtude. <br>
+        In 2017, I began working as a front end web developer at a digital marketing agency named Virtude. <br>
         This experience led to a valuable insight: My interest in information technology. <br>
         And so I started honing my skills in SEO, online marketing and UI/UX. <br>
         2019 was the year I first worked with a 100% server-based ERP system at Infodesk. <br>  

@@ -2,9 +2,6 @@ import './footer.scss';
 
 function template(controller) {
   return `
-    <div class="footer-logo">
-      ${controller.logoPath}
-    </div>
     <div class="footer-links">
       ${controller.links.map( link => `
         <div class="footer-item">
